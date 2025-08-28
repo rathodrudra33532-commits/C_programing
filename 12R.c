@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    float a,b;
+    float i,k;
     printf("weight in kilograms:");
-    scanf("%f",&a);
-    b = a * 1000;
-    printf("weight in grams:%.2f\n",b);
+    scanf("%f",&i);
+    k = i * 1000;
+    printf("weight in grams:%.2f\n",k);
     return 0;
 
 
