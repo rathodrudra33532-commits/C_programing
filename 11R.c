@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    float a,b;
+    float s,d;
     printf("enter grams:");
-    scanf("%f",&a);
-    b = a / 1000;
-    printf("kg = %.2f\n",b);
+    scanf("%f",&s);
+    d = s / 1000;
+    printf("kg = %.2f\n",d);
     return 0;
 
 }
