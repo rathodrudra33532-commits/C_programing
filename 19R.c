@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int r,area;
+    int x,area;
     printf("enter radius:");
-    scanf("%d",&r);
-    area = (22/7)*r*r;
+    scanf("%d",&x);
+    area = (22/7)*x*x;
     printf("area = %d\n",area);
     return 0;
 }
