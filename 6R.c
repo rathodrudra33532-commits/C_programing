@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
+    int k,l;
 
     printf("enter the time in hour:");
 
-    scanf("%d",&a);
+    scanf("%d",&k);
 
-    b = a * 60;
+    l = k * 60;
 
-    printf("%d time in min:%d\n",a,b);
+    printf("%d time in min:%d\n",k,l);
     return 0;
 }
