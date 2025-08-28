@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int h,l,area;
+    int w,q,area;
     printf("enter height and length:");
-    scanf("%d%d",&h,&l);
-    area =(h*l)/2;
+    scanf("%d%d",&w,&q);
+    area =(w*q)/2;
     printf("area = %d\n",area);
     return 0;
 }
