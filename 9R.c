@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
+    int t,u;
     printf("enter dollers:");
-    scanf("%d",&a);
-    b = a * 48;
-    printf("rupees = %d",b);
+    scanf("%d",&t);
+    u = t * 48;
+    printf("rupees = %d",u);
     return 0;
 
 }
