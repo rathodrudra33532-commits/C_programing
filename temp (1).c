@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    float a,b;
+    float s,d;
     printf("enter the temperature in fehrenheit:");
-    scanf("%f",&a);
-    b=(a-32)*5/9;
-    printf("the temperature in celsius is:%.2f",b);
+    scanf("%f",&s);
+    d=(s-32)*5/9;
+    printf("the temperature in celsius is:%.2f",d);
     return 0;
 }
