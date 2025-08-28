@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    float a,b,c;
-    printf("enter dollers:");
-    scanf("%f",&a);
-    b = a * 48;
-    c = b / 70;
-    printf("pounds:%.2f\n",b);
+    float p,q,r;
+    printf("enter dollars:");
+    scanf("%f",&p);
+    q = p * 48;
+    r = q / 70;
+    printf("pounds:%.2f\n",q);
     return 0;
 
 
