@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int l,w,area,perimeter;
+    int a,b,area,perimeter;
 
     printf("enter length and width: ");
-    scanf("%d%d",&l,&w);
-    area = l*w;
-    perimeter = 2*(l+w);
+    scanf("%d%d",&a,&b);
+    area = a*b;
+    perimeter = 2*(a+b);
     printf("area = %d\nperimeter = %d\n", area, perimeter);
     return 0;
 
