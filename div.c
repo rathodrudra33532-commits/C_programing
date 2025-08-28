@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
 {
-    int a,b,c;
+    int v,b,n;
     printf("enter two num");
-    scanf("%d%d",&a,&b);
-    c=a/b;
-    printf("value is %d\n",a,b,c);
+    scanf("%d%d",&v,&b);
+    n=v/b;
+    printf("value is %d\n",v,b,n);
 
 }
